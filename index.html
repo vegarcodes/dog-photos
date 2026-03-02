@@ -8,7 +8,23 @@
     <title>dog-photos</title>
   </head>
   <body>
-    <div id="app"></div>
+    <main>
+      <h1>Hundebilder</h1>
+
+      <form id="search-form" action="/" method="GET">
+        <label for="search-input">Finn bilde av hunderase</label>
+        <input type="text" id="search-input" name="search-input">
+        <br>
+        <label for="search-get-all-images">Hent alle bilder</label>
+        <input type="checkbox" id="search-get-all-images">
+        <br><br>
+        <button type="submit">Finn</button>
+      </form>
+
+      <figure id="search-result">
+
+      </figure>
+    </main>
     <script type="module" src="/src/ts/index.ts"></script>
   </body>
 </html>
