@@ -8,3 +8,8 @@ main {
   inline-size: min(50ch, 95%);
   margin-inline: auto;
 }
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
